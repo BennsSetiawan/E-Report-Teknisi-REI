@@ -46,7 +46,7 @@ if 'db_checklist' not in st.session_state:
         "Porlak": {
             "PJH-B200": {
                 "Bulanan": {
-                    "Mati": ["Periksa Kondisi Air Secara Visual", "Periksa Kualitas Air Menggunakan TDS meter", "Cleaning Filter Air", "Cleaning Reagent tray", "Cleaning Jarum Sample", "Cleaning Jarum Washer", "Cleaning Mixer / Pengaduk", "Cleaning Body Alat"],
+                    "Mati": ["Periksa Kondisi Air Secara Visual", "Periksa Kualitas Air Menggunakan TDS meter", "Cleaning Filter Air", "Cleaning Cuvet", "Cleaning Reagent tray", "Cleaning Jarum Sample", "Cleaning Jarum Washer", "Cleaning Mixer / Pengaduk", "Cleaning Body Alat"],
                     "Hidup": ["Reset System", "Air Purge 3 kali", "Detergent Wash", "Wash Cell All", "Cek Cell Blank (Range 20.000–60.000)", "QC (Quality Control)"]
                 }
             },
@@ -93,7 +93,7 @@ if 'db_checklist' not in st.session_state:
         "Biontech": {
             "ES-380": {
                 "Bulanan": {
-                    "Mati": ["Periksa Kondisi Air Secara Visual", "Perikas Kualitas Air Menggunakan TDS Meter", "Cleaning Filter Air", "Cleaning Reagent Tray", "Cleaning Jarum Sample", "Cleaning Jarum Washer", "Cleaning Mixer / Pengaduk", "Cleaning Body Alat"],
+                    "Mati": ["Periksa Kondisi Air Secara Visual", "Perikas Kualitas Air Menggunakan TDS Meter", "Cleaning Filter Air", "Cleaning Cuvet", "Cleaning Reagent Tray", "Cleaning Jarum Sample", "Cleaning Jarum Washer", "Cleaning Mixer / Pengaduk", "Cleaning Body Alat"],
                     "Hidup": ["Reset System", "Air Purge 3 kali", "Detergent Wash", "Wash Cell All", "Cek Cell Blank (Range 20.000–60.000)", "QC (Quality Control)"]
                 }
             },
@@ -132,9 +132,9 @@ if 'db_checklist' not in st.session_state:
                     "Hidup": ["Prime Diluent", "Prime Lyse", "Prime Seluruh Reagent", "Jalankan Self Check", "Test Background 3 Kali", "Test Printer", "QC (Quality Control)"]
                 }
             },
-            "HT-200": {
+            "HT-B200": {
                 "Bulanan": {
-                    "Mati": ["Periksa Kondisi Air Secara Visual", "Perikas Kualitas Air Menggunakan TDS Meter", "Cleaning Filter Air", "Cleaning Reagent Tray", "Cleaning Jarum Sample", "Cleaning Jarum Washer", "Cleaning Mixer / Pengaduk", "Cleaning Body Alat"],
+                    "Mati": ["Periksa Kondisi Air Secara Visual", "Perikas Kualitas Air Menggunakan TDS Meter", "Cleaning Filter Air", "Cleaning Cuvet", "Cleaning Reagent Tray", "Cleaning Jarum Sample", "Cleaning Jarum Washer", "Cleaning Mixer / Pengaduk", "Cleaning Body Alat"],
                     "Hidup": ["Reset System", "Air Purge 3 kali", "Detergent Wash", "Wash Cell All", "Cek Cell Blank (Range 20.000–60.000)", "QC (Quality Control)"]
                 }
             },
