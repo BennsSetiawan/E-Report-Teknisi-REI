@@ -155,10 +155,10 @@ if 'db_checklist' not in st.session_state:
 if 'db_alat' not in st.session_state:
     st.session_state.db_alat = {
         "AeHealth": ["AERC-3"],
-        "Biontech": ["ES-380, ES-101"],
+        "Biontech": ["ES-380, "ES-101"],
         "Bioway":   ["BW-300"],
         "Caretium": ["XI-931"],
-        "Heto": ["HT-H360", "HT-200", "HT-U300", "HT-B60 / HT-B101"],
+        "Heto": ["HT-H360", "HT-B200", "HT-U300", "HT-B60 / HT-B101"],
         "Lamuno": ["Lamuno X / Lamuno Pro"],
         "Porlak": ["PJH-B200", "PJH-H360", "PJH-H610", "PJH-B60 / PJHB-101", "PJH-U300"],
         "Singseng": ["RD6S", "RD3S"],
