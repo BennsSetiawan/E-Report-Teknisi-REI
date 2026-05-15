@@ -155,7 +155,7 @@ if 'db_checklist' not in st.session_state:
 if 'db_alat' not in st.session_state:
     st.session_state.db_alat = {
         "AeHealth": ["AERC-3"],
-        "Biontech": ["ES-380, "ES-101"],
+        "Biontech": ["ES-380", "ES-101"],
         "Bioway":   ["BW-300"],
         "Caretium": ["XI-931"],
         "Heto": ["HT-H360", "HT-B200", "HT-U300", "HT-B60 / HT-B101"],
